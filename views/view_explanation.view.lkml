@@ -8,6 +8,5 @@ view: view_explanation {
 
   measure: count_id {
     type: count
-    sql: ${id} ;;
   }
 }

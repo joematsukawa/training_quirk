@@ -14,13 +14,13 @@ explore: countries {}
 
 explore: goals {
   join: pairings {
-    type: left_outer 
+    type: left_outer
     sql_on: ${goals.pairing_id} = ${pairings.id} ;;
     relationship: many_to_one
   }
 
   join: players {
-    type: left_outer 
+    type: left_outer
     sql_on: ${goals.player_id} = ${players.id} ;;
     relationship: many_to_one
   }
@@ -30,3 +30,4 @@ explore: pairings {}
 
 explore: players {}
 
+explore: view_explanation {}

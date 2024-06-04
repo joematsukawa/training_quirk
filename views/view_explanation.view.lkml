@@ -1,5 +1,9 @@
 view: view_explanation {
-  sql_table_name: "TRAINING_SOCCER"."PLAYERS" ;;
+  derived_table: {
+    sql:
+      SELECT id
+      FROM "TRAINING_SOCCER"."PLAYERS" ;;
+  }
 
   dimension: id {
     type: number

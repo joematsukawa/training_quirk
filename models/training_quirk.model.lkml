@@ -12,6 +12,8 @@ persist_with: training_quirk_default_datagroup
 
 explore: countries {}
 
+explore: countries_ex {}
+
 explore: goals {
   join: pairings {
     type: left_outer
@@ -29,5 +31,3 @@ explore: goals {
 explore: pairings {}
 
 explore: players {}
-
-explore: view_explanation {}

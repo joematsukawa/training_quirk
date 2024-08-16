@@ -12,9 +12,7 @@ persist_with: training_quirk_default_datagroup
 
 explore: countries {}
 
-explore: countries_ex {
-  label: "test"
-}
+explore: countries_ex {}
 
 explore: goals {
   join: pairings {
@@ -33,3 +31,5 @@ explore: goals {
 explore: pairings {}
 
 explore: players {}
+
+explore: players_liquid {}

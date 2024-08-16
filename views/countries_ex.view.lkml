@@ -7,7 +7,7 @@ view: countries_ex {
 
   dimension: id_plus_group { ##追加したいDimensionおよびMeasureの記載
     type: string
-    sql: CONCAT(CAST(${id} AS STRING),"-",${group_name}) ;;
+    sql: CONCAT(CAST(${id} AS STRING),'-',${group_name}) ;;
   }
   ## ここに記載していないcountries.viewのDimensionおよびMeasureはそのまま継承される
 }
